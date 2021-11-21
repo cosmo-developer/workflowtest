@@ -21,3 +21,7 @@ jobs:
       run: make
     - name: listdir
       run: ls
+    - name: grant_permission
+      run: chmod +x workflowtest
+    - name: runing_app
+      run: ./workflowtest
